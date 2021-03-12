@@ -12,17 +12,10 @@ import com.example.cursomc.services.CategoriaService;
 
 @RestController
 @RequestMapping(value = "/categorias")
-public class CategoriaResource {
+public class ProdutoResource {
 	
 	@Autowired
 	private CategoriaService service; 
-
-	@RequestMapping(value="/{id}", method = RequestMethod.GET)
-	public ResponseEntity<?> find(@PathVariable Integer id) {
-		Categoria obj = service.buscar(id);
-		return ResponseEntity.ok().body(obj);
-
-	}
 
 
 }
