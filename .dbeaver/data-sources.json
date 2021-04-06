@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17860c5e0e0-14864643d8c9c8c0": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "curso_play",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "DESKTOP-V30SK5O\\SQLEXPRESS",
+				"port": "3306",
+				"database": "curso_play",
+				"url": "jdbc:mysql://DESKTOP-V30SK5O\\SQLEXPRESS:3306/curso_play",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

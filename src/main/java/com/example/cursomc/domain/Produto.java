@@ -55,7 +55,7 @@ public class Produto implements Serializable {
 		}
 		return lista;
 	}
-
+	
 	public Integer getId() {
 		return id;
 	}

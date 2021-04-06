@@ -16,8 +16,10 @@ import com.example.cursomc.dto.ClienteDTO;
 import com.example.cursomc.repositories.ClienteRepository;
 import com.example.cursomc.resources.exception.FieldMessage;
 
+
+
 public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate, ClienteDTO> {
-	
+
 	@Autowired
 	private HttpServletRequest request;
 	
@@ -31,17 +33,17 @@ public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate
 	@Override
 	public boolean isValid(ClienteDTO objDto, ConstraintValidatorContext context) {
 		
-		Map<String , String> map = (Map<String , String>) request.getAttribute(HandlerMapping.URI_TEMPLATE_VARIABLES_ATTRIBUTE);
-		Integer uriId = Integer.parseInt( map.get("id"));
+		@SuppressWarnings("unchecked")
+		Map<String, String> map = (Map<String, String>) request.getAttribute(HandlerMapping.URI_TEMPLATE_VARIABLES_ATTRIBUTE);
+		Integer uriId = Integer.parseInt(map.get("id"));
 		
 		List<FieldMessage> list = new ArrayList<>();
-
-		Cliente aux = repo.findByEmail(objDto.getEmail());
 		
-		if (aux != null && !aux.getId().equals(uriId)){
+		Cliente aux = repo.findByEmail(objDto.getEmail());
+		if (aux != null && !aux.getId().equals(uriId)) {
 			list.add(new FieldMessage("email", "Email já existente"));
 		}
-		
+
 		for (FieldMessage e : list) {
 			context.disableDefaultConstraintViolation();
 			context.buildConstraintViolationWithTemplate(e.getMessage()).addPropertyNode(e.getFieldName())
