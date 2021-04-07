@@ -1,0 +1,227 @@
+[33mcommit 8ae3df4f1d70c5d7b7a9d677628c6faecd653380[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 14:20:06 2021 -0300
+
+    Atualizando arquivo pom
+
+[33mcommit 9bcde5b4e68b832638e5a3cb428d1567f9057446[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 13:34:31 2021 -0300
+
+    Adicionando maven.version 4.0.0
+
+[33mcommit 65d44cef2627352a3f1863b91e1687a6f02cd50e[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 13:23:40 2021 -0300
+
+    Adicionando maven.version ao arquivo system.properties
+
+[33mcommit 93a1ba7ae826c701211f4ed8ceccec5fe80e883e[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 11:54:09 2021 -0300
+
+    Adicionando arquivo system.properties
+
+[33mcommit 17e302b80f6c46e06ea2cb2c85badc4f3e9d4a94[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 11:50:18 2021 -0300
+
+    Ajuste arquivo Profile
+
+[33mcommit 04896ad52fde01fa3ea0f5aeadd3eed0b413a8d3[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Apr 7 11:41:34 2021 -0300
+
+    Configuracao e envio do projeto para a producao
+
+[33mcommit 1545d93531934d55cc7377b3bcc9189d7cbf7377[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Tue Apr 6 18:06:53 2021 -0300
+
+    Criando profile de desenvolvimento
+
+[33mcommit 0a468a5364ba1572f8a832865c180244b4e8672c[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Tue Apr 6 17:16:48 2021 -0300
+
+    Criando profile de teste
+
+[33mcommit a2ca5eab4db1d4bd12984b54aee6c5a7b21c8776[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Tue Mar 23 14:16:02 2021 -0300
+
+    Inserindo Pedido
+
+[33mcommit 814c23e120fdba68e3af4af0c68a1aca6a78bda3[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 21 19:38:12 2021 -0300
+
+    Subtotal e total do pedido
+
+[33mcommit f91a6bf80a101ac43800020be631602a080aef08[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 21 00:32:44 2021 -0300
+
+    Busca de pedidos por nome e categorias
+
+[33mcommit f5bf70419d8fba1dfb13be94281f744bc258fb40[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 20 00:59:07 2021 -0300
+
+    Validação customizada: email não repetido na inserção de Cliente
+
+[33mcommit 5e813cc2f8fc01842600ee246d9f9ad78b2b09f5[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 20 00:23:04 2021 -0300
+
+    Validação customizada: email não repetido na inserção de Cliente
+
+[33mcommit e4ad3ee8b4351729e4bb0cdf20cd5b0bcb35b589[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 18 23:50:18 2021 -0300
+
+    Validacao customizada de CPF e CNPJ na insercao de cliente
+
+[33mcommit fddc7c74f32fca59a5417a9054883c6bfe16d374[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 18 22:31:09 2021 -0300
+
+    Ajustando e testando a deleção de clientes
+
+[33mcommit f2ff30b55adf46ed10c18ce90027eb05771c5d52[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 18 22:14:41 2021 -0300
+
+    Inserindo um novo Cliente com POST
+
+[33mcommit 75ebc49f61c76a010a2a4629dd271fb83867272e[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Mar 17 23:30:12 2021 -0300
+
+    Correcoes update em CategoriaService e construtor de pagamento
+
+[33mcommit 4ae2d6f0330a06c82bfe669853c13ca15737790d[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Mar 17 23:16:31 2021 -0300
+
+    PUT, DELETE e GET para Cliente
+
+[33mcommit a47419cfc1c969803b6da5d39f08a61021ae0ffe[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Tue Mar 16 23:26:05 2021 -0300
+
+    Vakidacao sintatica com Bean Validation e personalizando o retorno da validacao
+
+[33mcommit 30f25eea2ca2b0f42500c481f480e94024c8bfbe[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 22:05:14 2021 -0300
+
+    Paginação com parâmetros opcionais na requisição
+
+[33mcommit 28e8f8bce258318774a60e860cda9e990095ffa0[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 03:06:46 2021 -0300
+
+    Listando todas Categorias com DTO
+
+[33mcommit bd6f6086fffc40f7d0e25fe2bd7398c18044f8bc[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 02:38:37 2021 -0300
+
+    Deletando uma categoria com DELETE e criando uma excecao personalizada
+
+[33mcommit f2b9aa48a770a09b26b2dd2928af5d191681d806[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 02:04:04 2021 -0300
+
+    Atualizando categoria com PUT, outros pequenos ajustes
+
+[33mcommit 26011c9e438f16af903adab11e35938de469716b[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 01:25:20 2021 -0300
+
+    Inserindo uma nova Categoria com o POST
+
+[33mcommit 1fc8e452cdc28c257755518ecd674bda76202c83[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sun Mar 14 00:20:51 2021 -0300
+
+    Atualizacao: Utilizando somente @JsonIgnore
+
+[33mcommit 1fa74c3f08f622c03d205dbc40af625af1d183dd[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 13 23:45:30 2021 -0300
+
+    Endpoint / pedidos/{id} disponibilizado
+
+[33mcommit 0e3bfa01413fb5f072249a4e527f43abf65c8e09[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 13 22:30:20 2021 -0300
+
+    ItemPedido e ItemPedidoPK
+
+[33mcommit 7e0abccc183b06fe3f5e41d13cae09749d86f3dd[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 13 02:45:46 2021 -0300
+
+    Pedido, EstadoPagamento, Pagamento
+
+[33mcommit ac550c97a91e8b234471fd52cfbec24f7066df01[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Sat Mar 13 00:41:13 2021 -0300
+
+    Endpoint /cliente/{id} disponível
+
+[33mcommit e95526a3531d52ba2088313146105f53696ecf72[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Fri Mar 12 23:57:24 2021 -0300
+
+    Cliente, TipoCliente, Telefone e Endereco
+
+[33mcommit ee70118cfeac106c7792ec8bb4583eba99d51048[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Fri Mar 12 00:42:37 2021 -0300
+
+    Ajustes no endpoint/categorias/{id}
+
+[33mcommit a1693714fb14f75b944ab7fac6d8d66644155a67[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 11 22:45:53 2021 -0300
+
+    Produto e associacao muitos para muitos
+
+[33mcommit 087bc76ec1f8b26820ceb061d7d950d0128d73cd[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 11 21:22:42 2021 -0300
+
+     Criando operacao de instanciacao
+
+[33mcommit 57841c748b8ed17d77dc32e453acc5b29685bd7c[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 11 20:40:10 2021 -0300
+
+    Criando repository e service para a classe Categoria
+
+[33mcommit d201555c25fff3d6cf14533a72132978567b0b03[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Thu Mar 11 00:14:22 2021 -0300
+
+    Banco de dados H2 e criacao automatica da base de dados
+
+[33mcommit b0ab851855aebee2814731a7a92c4e5ac3816401[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Mar 10 23:35:19 2021 -0300
+
+    Testando a primeira classe de dominio - Categoria
+
+[33mcommit bfbc54121a030d6cfb70e79ffd11124ea95f3717[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Mar 10 23:06:35 2021 -0300
+
+    Testando o REST
+
+[33mcommit f3a36433a93724fb47c7c4b0ad2799380dbcd150[m
+Author: Rafael Martins <rafaelrhm.27@gmail.com>
+Date:   Wed Mar 10 22:25:20 2021 -0300
+
+    Projeto Criado
